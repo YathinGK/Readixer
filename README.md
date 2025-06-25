@@ -11,21 +11,54 @@ A component of **Readixer**, this project focuses on converting handwritten note
 - 📝 Extracts readable and editable digital text
 - 📦 API integration support for external use
 - 🌐 Clean and interactive UI built with Streamlit
-
+Summary Generator
+- 📝 Paste or Upload Your Notes
+- ⚡ Generate concise summaries instantly
+- 🧠 Built using Natural Language Processing techniques
+- 🔍 Supports keyword-based or custom-length summarization
 ---
 
 ## 🧰 Tech Stack
 
-- **Frontend/UI**: Streamlit
-- **Backend**: Python
-- **OCR Model**: Trained using TensorFlow/Keras (you can mention the specific model if known)
-- **Libraries**: 
-  - `opencv-python`
-  - `pytesseract`
-  - `streamlit`
-  - `PIL`
-  - `numpy`
+🛠️ Tech Stack
 
+🖼️ Handwritten Notes to Digital Text
+
+- Frontend/UI:
+  • Streamlit – for building the user interface
+
+- Backend:
+  • Python – powering logic, image processing, and OCR pipeline
+
+- OCR Model:
+  • Trained using TensorFlow/Keras (e.g., CNN for handwriting recognition)
+
+- Libraries Used:
+  • opencv-python – for image processing and pre-processing
+  • pytesseract – wrapper for Google’s Tesseract OCR engine
+  • Pillow (PIL) – for handling and manipulating images
+  • numpy – numerical operations and array management
+  • streamlit – UI interaction and file upload
+  • tensorflow / keras – for model inference (if custom model is used)
+
+🧠 Summary Generator
+
+- Frontend/UI:
+  • Streamlit – same unified interface as OCR component
+
+- Backend:
+  • Python – for NLP processing and summarization logic
+
+- NLP Techniques/Models:
+  • Extractive summarization using NLP algorithms
+  • Libraries like spaCy or NLTK (for text processing)
+  • Transformers (if using models like BERT, T5 or Pegasus)
+
+- Libraries Used:
+  • transformers – for pretrained summarization models (e.g., T5, BART)
+  • nltk / spaCy – for tokenization and preprocessing
+  • sumy / gensim – for traditional extractive summarization (if applicable)
+  • streamlit – frontend control, summary display
 ---
 
 ## 🖼️ How It Works
