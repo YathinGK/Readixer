@@ -25,7 +25,7 @@ Summary Generator
 🖼️ Handwritten Notes to Digital Text
 
 - Frontend/UI:
-  • Streamlit – for building the user interface
+  • React for the Frontenr
 
 - Backend:
   • Python – powering logic, image processing, and OCR pipeline
@@ -53,12 +53,6 @@ Summary Generator
   • Extractive summarization using NLP algorithms
   • Libraries like spaCy or NLTK (for text processing)
   • Transformers (if using models like BERT, T5 or Pegasus)
-
-- Libraries Used:
-  • transformers – for pretrained summarization models (e.g., T5, BART)
-  • nltk / spaCy – for tokenization and preprocessing
-  • sumy / gensim – for traditional extractive summarization (if applicable)
-  • streamlit – frontend control, summary display
 ---
 
 ## 🖼️ How It Works
