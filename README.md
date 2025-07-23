@@ -1,4 +1,4 @@
-# ✍️ Handwritten Notes Converter – Readixer Module
+# ✍️ Handwritten Notes Converter & Summary Generator – "Readixer"
 
 A component of **Readixer**, this project focuses on converting handwritten notes into digital text using OCR (Optical Character Recognition) and deep learning models. It provides an intuitive interface for uploading handwritten files and receiving clean, editable text output.
 
